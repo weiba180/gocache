@@ -9,10 +9,7 @@ func (v ByteView) Len() int {
 	return len(v.b)
 }
 
-<<<<<<< HEAD
 //返回拷贝，防止缓存值被外部修改
-=======
->>>>>>> a5b6419c0fb7f1a2857411e5a29c0d2f87b7dd31
 func (v ByteView) ByteSlice() []byte {
 	return cloneBytes(v.b)
 }
